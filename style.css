@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*
+Classes : for changing dimesnions
+IDs     : for changing color
+*/
+
+/*----- Classes -----*/
+.background {
+    margin: 0px;
+}
+
+.foreground {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 90%;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.languages{
+    width: max-content;
+    font-size: 4vw;
+}
+
+/*----- IDs -----*/
+#Home {
+    background-color: white;
+}
+
+#intro{
+    font-size: 10vw;
+}
+
+#skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+#Projects {
+    background-color: white;
+}
+
+#Contact {
+    background-color: white;
+}
+
+/*----- Specific Modifications -----*/
+
+a:link {
+    text-decoration: none;
+}
