@@ -2,14 +2,9 @@ body {
     margin: 0px;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
-
-/*
-Classes : for changing dimesnions
-IDs     : for changing color
-*/
 
 /*----- Classes -----*/
 .background {
@@ -27,7 +22,7 @@ IDs     : for changing color
     text-align: center;
 }
 
-.languages{
+.languages {
     width: max-content;
     font-size: 4vw;
 }
@@ -35,16 +30,6 @@ IDs     : for changing color
 /*----- IDs -----*/
 #Home {
     background-color: white;
-}
-
-#intro{
-    font-size: 8vw;
-}
-
-#skills{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
 }
 
 #Projects {
@@ -55,8 +40,30 @@ IDs     : for changing color
     background-color: white;
 }
 
-/*----- Specific Modifications -----*/
+#intro {
+    font-size: 8vw;
+}
 
+#project_title {
+    margin-left: 3vw;
+    text-align: left;
+    font-size: 5vw;
+}
+
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+#flappy_bird {
+    border-radius: 10px;
+    border-style: solid;
+    font-size: 3svw;
+    width: 25vw;
+}
+
+/*----- Specific Modifications -----*/
 a:link {
     text-decoration: none;
 }
